@@ -37,7 +37,7 @@ if response.status_code == 200:
     soup = BeautifulSoup(html, 'html.parser')
 
     # Prvi `li` od koga krećemo ekstrakciju
-    start_a = soup.find('a', href=re.compile(r'ani-\d+\.pdf'))
+    start_a = soup.find('a', href=re.compile(r'[Aa]ni.*\.pdf'))
     start_li = start_a.parent if start_a else None
 
     hrefs = []

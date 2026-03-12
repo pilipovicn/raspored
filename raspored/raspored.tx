@@ -49,4 +49,4 @@ Vrsta: 'rač.vežbe'
      | 'lab.vežbe'
      | 'Pred.';
 Predmet[noskipws]: /\s*/- (!KrajTermina /\w+|\n|./)+;
-KrajTermina: Grupa | Dan | Datum | 'Rasporedi i realizacija' | 'Predmeti za koje nastavu' | 'filename:';
+KrajTermina: Grupa | Dan | Datum | 'Rasporedi i realizacija' | 'Predmeti za koje nastavu' | 'Fakultet tehničkih nauka' | 'filename:';
